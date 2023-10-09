@@ -1,0 +1,10 @@
+pub const XGRID: usize = 12*2;
+pub const YGRID: usize = 12;
+pub const XGRIDINNER: usize = XGRID - 2;
+pub const YGRIDOUTER: usize = YGRID - 2;
+pub const STAGEHEIGHT: usize = YGRIDOUTER - 4;
+pub const FOHHEIGHT: usize = YGRIDOUTER - STAGEHEIGHT;
+pub const LCORNER: &str = "+ ";
+pub const RCORNER: &str = "+";
+pub const HYPHEN: &str = "- ";
+pub const PIPE: &str = "|";
